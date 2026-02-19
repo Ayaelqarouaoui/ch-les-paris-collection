@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const WHATSAPP_NUMBER = '212704131681';
 const WHATSAPP_MESSAGE = encodeURIComponent('Bonjour Chalher Paris, je suis intéressé(e) par vos châles.');
-const WHATSAPP_URL = `https://wa.me/${0704131681}?text=${BONJOUR}`;
+const WHATSAPP_URL = `https://wa.me/${0704131681}?text=${WHATSAPP_MESSAGE}`;
 const INSTAGRAM_URL = 'https://instagram.com/chalherparis';
 
 const Footer = () => (
