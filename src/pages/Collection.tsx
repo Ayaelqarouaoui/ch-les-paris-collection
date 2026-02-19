@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import ProductCard from '@/components/ProductCard';
 import { products, categories } from '@/data/products';
@@ -48,7 +49,9 @@ const Collection = () => {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12"
         >
           {filtered.map((product, index) => (
-            <ProductCard key={product.id} product={product} index={index} />
+            <Link to={`/product/${product.id}`} key={product.id} className="block">
+              <ProductCard product={product} index={index} />
+            </Link>
           ))}
         </motion.div>
       </div>

@@ -7,8 +7,10 @@ import { CartProvider } from "@/context/CartContext";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CartDrawer from "@/components/CartDrawer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 import Index from "./pages/Index";
 import Collection from "./pages/Collection";
+import ProductDetail from "./pages/ProductDetail";
 import About from "./pages/About";
 import Login from "./pages/Login";
 import Checkout from "./pages/Checkout";
@@ -25,9 +27,11 @@ const App = () => (
         <BrowserRouter>
           <Header />
           <CartDrawer />
+          <WhatsAppButton />
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/collection" element={<Collection />} />
+            <Route path="/product/:id" element={<ProductDetail />} />
             <Route path="/a-propos" element={<About />} />
             <Route path="/login" element={<Login />} />
             <Route path="/checkout" element={<Checkout />} />
