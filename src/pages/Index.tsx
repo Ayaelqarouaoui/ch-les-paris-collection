@@ -3,7 +3,8 @@ import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import heroImage from '@/assets/hero-image.jpg';
 import ProductCard from '@/components/ProductCard';
-import { products } from '@/data/products';
+import { featuredProducts } from '@/data/products';
+import { Link as RouterLink } from 'react-router-dom';
 
 const Index = () => {
   return (
@@ -68,9 +69,11 @@ const Index = () => {
           <h2 className="font-display text-3xl md:text-4xl mt-3">Pièces d'Exception</h2>
           <div className="gold-line mt-4" />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
-          {products.map((product, index) => (
-            <ProductCard key={product.id} product={product} index={index} />
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 md:gap-10">
+          {featuredProducts.map((product, index) => (
+            <RouterLink to={`/product/${product.id}`} key={product.id} className="block">
+              <ProductCard product={product} index={index} />
+            </RouterLink>
           ))}
         </div>
         <div className="text-center mt-16">
