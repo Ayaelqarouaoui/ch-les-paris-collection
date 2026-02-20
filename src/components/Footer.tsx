@@ -45,9 +45,9 @@ const Footer = () => (
         <div>
           <h3 className="font-sans text-xs tracking-[0.2em] uppercase text-gold mb-4">Contact</h3>
           <div className="flex flex-col gap-2 font-sans text-sm text-cream/70">
-            <p>contact@chalher-paris.com</p>
-            <p>+33 1 42 60 00 00</p>
-            <p>Paris, France</p>
+            <p>chalherparis@gmail.com</p>
+            <p>+212723-688696</p>
+            <p>Maroc</p>
           </div>
         </div>
         <div>
