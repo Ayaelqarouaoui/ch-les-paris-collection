@@ -1,6 +1,6 @@
 const WHATSAPP_NUMBER = '212723688696';
 const WHATSAPP_MESSAGE = encodeURIComponent('Bonjour Chalher Paris, je suis intéressé(e) par vos châles.');
-const WHATSAPP_URL = `https://wa.me/212723688696?text=${WHATSAPP_MESSAGE}`;
+const WHATSAPP_URL = `https://wa.me/${212723688696}?text=${WHATSAPP_MESSAGE}`;
 
 const WhatsAppButton = () => (
   <a
