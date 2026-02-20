@@ -50,15 +50,15 @@ export interface Product {
 
 export const products: Product[] = [
   // --- Châles en Fourrure (L-qdam + J-dad) --- 
-  { id: 'chale-1', name: 'Châle Bordure Fourrure', description: 'Luxe et chaleur.', price: 1250, image: chaleFourrure, category: 'Châles en Fourrure', featured: true },
-  { id: 'chale-2', name: 'Châle Paisley Impérial', description: 'Motifs traditionnels.', price: 950, image: chalePaisley, category: 'Châles Paisley' },
-  { id: 'chale-3', name: 'Châle Léopard Chic', description: 'Style animalier.', price: 850, image: chaleLeopard, category: 'Imprimé Léopard' },
-  { id: 'chale-4', name: 'Châle Soie Champagne', description: 'Éclat soyeux.', price: 1100, image: chaleSilkGold, category: 'Soie', featured: true },
-  { id: 'chale-5', name: 'Châle Cashmere Navy', description: 'Bleu nuit profond.', price: 1350, image: chaleCashmereNavy, category: 'Châles en Fourrure' },
-  { id: 'chale-6', name: 'Châle Floral Printemps', description: 'Douceur fleurie.', price: 890, image: chaleFloral, category: 'Soie' },
-  { id: 'chale-7', name: 'Châle Bordeaux Royal', description: 'Élégance bordeaux.', price: 1050, image: chaleBordeaux, category: 'Châles Paisley' },
-  { id: 'chale-8', name: 'Châle Émeraude Satin', description: 'Vert précieux.', price: 980, image: chaleEmerald, category: 'Soie' },
-  { id: 'chale-9', name: 'Châle Noir & Or', description: 'Glamour nocturne.', price: 1450, image: chaleNoirOr, category: 'Châles en Fourrure', featured: true },
+  { id: 'chale-1', name: 'Châle Bordure Fourrure', description: 'Luxe et chaleur.', price: 70, image: chaleFourrure, category: 'Châles en Fourrure', featured: true },
+  { id: 'chale-2', name: 'Châle Paisley Impérial', description: 'Motifs traditionnels.', price: 90, image: chalePaisley, category: 'Châles Paisley' },
+  { id: 'chale-3', name: 'Châle Léopard Chic', description: 'Style animalier.', price: 85, image: chaleLeopard, category: 'Imprimé Léopard' },
+  { id: 'chale-4', name: 'Châle Soie Champagne', description: 'Éclat soyeux.', price: 100, image: chaleSilkGold, category: 'Soie', featured: true },
+  { id: 'chale-5', name: 'Châle Cashmere Navy', description: 'Bleu nuit profond.', price: 50, image: chaleCashmereNavy, category: 'Châles en Fourrure' },
+  { id: 'chale-6', name: 'Châle Floral Printemps', description: 'Douceur fleurie.', price: 89, image: chaleFloral, category: 'Soie' },
+  { id: 'chale-7', name: 'Châle Bordeaux Royal', description: 'Élégance bordeaux.', price: 50, image: chaleBordeaux, category: 'Châles Paisley' },
+  { id: 'chale-8', name: 'Châle Émeraude Satin', description: 'Vert précieux.', price: 98, image: chaleEmerald, category: 'Soie' },
+  { id: 'chale-9', name: 'Châle Noir & Or', description: 'Glamour nocturne.', price: 50, image: chaleNoirOr, category: 'Châles en Fourrure', featured: true },
 
   // --- 2. L-BAQI (S-TSAWR L-JDAD LI ZEDTI) ---
   { id: 'chale-bordure-fourrure', name: 'Châle à Bordure Fourrure', description: 'Chaleur luxueuse et glamour.', price: 50, image: Fourrure1, category: 'Châles en Fourrure', featured: true },
@@ -88,9 +88,9 @@ export const products: Product[] = [
   { id: 'chale-leopard-classique', name: 'Châle Léopard Classique', description: 'Le classique revisité.', price: 88, image: Leopard2, category: 'Imprimé Léopard', featured: true },
   { id: 'chale-leopard-noir', name: 'Châle Léopard Noir', description: 'L\'audace sombre.', price: 92, image: Leopard3, category: 'Imprimé Léopard' },
   { id: 'chale-leopard-dore', name: 'Châle Léopard Doré', description: 'L\'éclat sauvage.', price: 65, image: Leopard4, category: 'Imprimé Léopard' },
-  { id: 'chale-leopard-bordeaux', name: 'Châle Léopard Bordeaux', description: 'L\'animalier en rouge.', price: 890, image: Leopard5, category: 'Imprimé Léopard' },
+  { id: 'chale-leopard-bordeaux', name: 'Châle Léopard Bordeaux', description: 'L\'animalier en rouge.', price: 90, image: Leopard5, category: 'Imprimé Léopard' },
   { id: 'chale-leopard-pastel', name: 'Châle Léopard Pastel', description: 'Douceur sauvage.', price: 85, image: Leopard6, category: 'Imprimé Léopard' },
-  { id: 'chale-leopard-fourrure', name: 'Châle Léopard Bordé Fourrure', description: 'Luxe sauvage ultime.', price: 1450, image: Leopard7, category: 'Imprimé Léopard' },
+  { id: 'chale-leopard-fourrure', name: 'Châle Léopard Bordé Fourrure', description: 'Luxe sauvage ultime.', price: 50, image: Leopard7, category: 'Imprimé Léopard' },
   { id: 'chale-leopard-echarpe', name: 'Écharpe Léopard Fine', description: 'L\'accent sauvage.', price: 58, image: Leopard8, category: 'Imprimé Léopard' },
 ];
 
